@@ -30,10 +30,22 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Stack at the moment
 
 [React](https://github.com/facebook/create-react-app) ⚛️
+
 [nodeJS](https://nodejs.org/en/) 🚒
-[Evergreen](https://evergreen.segment.com/) 🍃
+
+[tailwindcss](https://tailwindcss.com/) 🎐
+
+[headlessUI](https://headlessui.dev/) 🟦
+
 [Framer](https://www.framer.com/) 🖼️
+
 [unDraw](https://undraw.co/) 🖌️
+
+### Deprecated 
+
+~~[React-JSS](https://cssinjs.org/?v=v10.8.0) ☕~~
+
+~~[Evergreen](https://evergreen.segment.com/) 🍃~~
 
 ## Learn More
 
