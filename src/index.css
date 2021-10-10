@@ -1,0 +1,28 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-2xl
+    }
+    h2 {
+        @apply text-xl
+    }
+    @font-face {
+        font-family: Mulish;
+        font-weight: 400;
+        src: url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+    }
+}
+
+/* You can make class-components here for themeing. This is for heavily resuable components.
+
+Example would be if i want to make a button
+
+.button {
+    @apply css-properties like shadow-md py-3 px-6 etc.
+}
+
+*/
