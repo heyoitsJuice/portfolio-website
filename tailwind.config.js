@@ -41,8 +41,15 @@ module.exports = {
         },
         indigo: {
           400: "#7F9CF5"
+        },
+        blue: {
+          nav: "#365168"
         }
 
+      },
+      fontFamily: {
+        mullish: "'Mullish', sans-serif",
+        overpass: "'Overpass', sans-serif"
       }
     },
   },
