@@ -1,18 +1,19 @@
 import React from "react";
+import MemoTanbata from "../Images/Tanbata";
 
 export default function Hero() {
   return (
-    <div className="bg-red-50 relative">
-      <div className="container flex flex-col lg:flex-row items-center gap-12 mt-14 lg:mt-28">
-        <div className="flex flex-1 flex-col items-center lg:items-start">
-          <h2 className="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
-            hello
-          </h2>
-          <h2 className="text-3xl lg:text-5xl text-center lg:text-left mb-6">
-            World
-          </h2>
+    <div className="w-full flex flex-row justify-between bg-gradient-to-r from-yellow-100 via-green-100 to-orange-200 ...">
+      <div className=" flex flex-col">
+        <div className="text-7xl font-semibold pt-48 pl-4">Hello</div>
+        <div className="text-7xl font-semibold pt-4 pl-4">World</div>
+        <div className="pt-8 pl-4 md:w-80 opacity-80">
+          I'm an aspiring software engineer based in San Diego looking for
+          opportunities to create and contribute to applications that make a difference!
         </div>
       </div>
+      {/* Replace bottom div with an image haha */}
+      <MemoTanbata className="flex" />
     </div>
   );
 }

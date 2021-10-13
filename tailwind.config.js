@@ -21,7 +21,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#A0AEC0",
         gray: {
           300: "#E2E8F0",
           600: "#718096"
@@ -44,12 +43,11 @@ module.exports = {
         },
         blue: {
           nav: "#365168"
-        }
-
+        },
       },
       fontFamily: {
         mullish: "'Mullish', sans-serif",
-        overpass: "'Overpass', sans-serif"
+        overpass: "'Overpass', sans-serif",
       }
     },
   },
