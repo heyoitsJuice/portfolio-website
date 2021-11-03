@@ -1,16 +1,31 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+import Mainbar from "./Mainbar";
 
 export default function Hero() {
   return (
-    <div className="bg-red-50 relative">
-      <div className="container flex flex-col lg:flex-row items-center gap-12 mt-14 lg:mt-28">
-        <div className="flex flex-1 flex-col items-center lg:items-start">
-          <h2 className="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
-            hello
-          </h2>
-          <h2 className="text-3xl lg:text-5xl text-center lg:text-left mb-6">
-            World
-          </h2>
+    <div className="lg:h-screen bg-gradient-to-r from-blue-200 via-yellow-200 to-purple-200">
+      <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 py-14">
+        <div className="border-10 col-span-12 bg-yellow-100 lg:col-span-4 rounded-2xl p-4 text-center">
+          <Sidebar />
+        </div>
+        <div className="col-span-12 bg-orange-100 lg:col-span-8 rounded-2xl pt-8 text-center">
+          <Mainbar />
+        </div>
+      </div>
+      {/* Turn these into buttons w/ */}
+      <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 py-20">
+        <div className=" text-center font-patrick border-2 text-5xl border-gray-900 col-span-12 lg:col-span-3 rounded-2xl p-4 bg-yellow-100">
+          About Me
+        </div>
+        <div className=" text-center font-patrick border-2 text-5xl border-gray-900 col-span-12 lg:col-span-3 rounded-2xl p-4 bg-yellow-100">
+          Blog
+        </div>
+        <div className=" text-center font-patrick border-2 text-5xl border-gray-900 col-span-12 lg:col-span-3 rounded-2xl p-4 bg-yellow-100">
+          Works
+        </div>
+        <div className=" text-center font-patrick border-2 text-5xl border-gray-900 col-span-12 lg:col-span-3 rounded-2xl p-4 bg-yellow-100">
+          Contact
         </div>
       </div>
     </div>

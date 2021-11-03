@@ -49,7 +49,12 @@ module.exports = {
       },
       fontFamily: {
         mullish: "'Mullish', sans-serif",
-        overpass: "'Overpass', sans-serif"
+        overpass: "'Overpass', sans-serif",
+        pacifico: "'Pacifico', sans-serif",
+        patrick: "'Patrick Hand SC', sans-serif"
+      },
+      backgroundImage: {
+        'hero-background': "url('./images/hero-bg.jpg')"
       }
     },
   },
