@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="items-center mr-2 py-4 px-3 hidden md:flex">
             <Link to='/' className="px-4 font-overpass text-white font-semibold text-sm hover:underline subpixel-antialiased"> about </Link>
             <Link to='/' className="px-4 font-overpass text-white font-semibold text-sm hover:underline subpixel-antialiased"> blog </Link>
-            <Link to='/' className="pl-4 pr-6 font-overpass text-white font-semibold text-sm hover:underline subpixel-antialiased"> works </Link>
+            <Link to='/works' className="pl-4 pr-6 font-overpass text-white font-semibold text-sm hover:underline subpixel-antialiased"> works </Link>
             <Link to='/' className="px-3 py-2 font-overpass border-2 rounded text-white font-semibold text-sm hover:underline subpixel-antialiased"> contact </Link>
           </div>
 

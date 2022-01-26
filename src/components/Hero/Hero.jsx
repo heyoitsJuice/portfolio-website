@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
       </div>
       {/* Turn these into buttons w/ */}
-      <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 py-20">
+      {/* <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 py-20">
         <div className=" text-center font-patrick border-2 text-5xl border-gray-900 col-span-12 lg:col-span-3 rounded-2xl p-4 bg-yellow-100">
           About Me
         </div>
@@ -27,7 +27,7 @@ export default function Hero() {
         <div className=" text-center font-patrick border-2 text-5xl border-gray-900 col-span-12 lg:col-span-3 rounded-2xl p-4 bg-yellow-100">
           Contact
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -79,11 +79,11 @@ export default function Sidebar() {
 
       <DelayIntro />
 
-      <div className=" text-center font-overpass text-xl mx-4 my-4">
+      {/* <div className=" text-center font-overpass text-xl mx-4 my-4">
           <b>Alma Mater:</b> UC Irvine 2022
           <br/>
           <b>Inquiries:</b> justinalvin98@gmail.com
-      </div>
+      </div> */}
 
       <div className="flex justify-around my-6">
         <Link to="/" className="text-blue-400">
@@ -101,6 +101,12 @@ export default function Sidebar() {
         className="px-3 py-4 my-10 justify-center text-center font-overpass border-2 font-semibold hover:underline rounded-full flex items-center justify-content bg-gradient-to-r from-green-400 to-blue-400"
       >
         Download My Resume Here!
+      </Link>
+      <Link
+        to="/works"
+        className="px-3 py-4 my-10 justify-center text-center font-overpass border-2 font-semibold hover:underline rounded-full flex items-center justify-content bg-gradient-to-r from-green-400 to-blue-400"
+      >
+        Check Out My Projects Here!
       </Link>
     </div>
   );
